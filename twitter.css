@@ -1,0 +1,615 @@
+*{
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	body{
+		/*background-color: pink;*/
+		height: 500vh;
+			font-size: 30px;
+        		font-weight: bold;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+          
+	}
+	#left{
+		height: 85vh;
+		width: 22vw;
+        display:inline-block;
+        position: fixed;
+        background-color: white;
+        left: 0;
+        padding: 2% 5%;
+        	}
+        	#center{
+		/*height: 300vh;*/
+		width: 45vw;
+        display:inline;
+        position: absolute;
+        left: 22vw;
+        top: 0;
+        border: 0.4px solid silver;
+         /*background-color: green;*/
+
+        	}
+        	#right{
+		height: 200vh;
+		width: 33vw;
+        display:inline;
+        position: absolute;
+        left: 67vw;
+        top: 0;
+          /*background-color: blue;*/
+             
+        	}
+            #left-container{
+               height: 80%;
+               background-color: red;
+                 
+            }
+        	#bird{
+        		position: absolute;
+        		width: 50px;
+        		height: 50px;
+        		/*background-color: #7878ff;
+        		*/border: 1px solid transparent;
+        		border-radius: 50%;
+                background-image: url(images/twitter.svg);
+        	}
+             #bird:hover{
+                background-color: rgba(190,190,255,0.5);
+            }
+              .leftinner:hover{
+                background-color: rgba(190,190,255,0.5);
+            }
+            .leftinner{
+            		position: absolute;
+        	        height: 7%;
+        		/*background-color: red;*/
+        		border: 1px solid transparent;
+        		border-radius: 10%;
+        		font-size: 19px;
+        		font-weight: 700;
+        		font-stretch: 100%;
+        		line-height: 24.9375px;
+        		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}               
+            }
+            .leftinner:hover{
+            	background-color: rgba(190,190,255,0.5);
+            }
+        	#home{
+        		width: 70%;
+        		 top: 15%;
+        		 color: #7878ff;
+        	}
+            #homespan1{
+                    background-image: url(images/11.png);
+        
+            }
+             #notespan2{
+                    background-image: url(images/12.png);
+        
+            }
+              #notespan3{
+                    background-image: url(images/12.png);
+        
+            }
+              #notespan4{
+                    background-image: url(images/13.png);
+        
+            }
+             #notespan5{
+                    background-image: url(images/14.png);
+        
+            }
+             #notespan6{
+                    background-image: url(images/15.png);
+        
+            }
+            #notespan7{
+                    background-color: #aaa;
+                    border-radius: 50%;
+                        background-image: url(images/9.png);
+                
+            }
+              #notespan8{
+                    background-image: url(images/16.png);
+        
+            }
+        	#explore{
+        		width: 70%;
+        		 top: 24%;
+        	}
+        	#notification{
+        		width: 70%;
+        		 top: 33%;
+        	}
+        	#messages{
+        		width: 70%;
+        		 top: 42%;
+        	}
+        	#bookmarks{
+        		width: 70%;
+        		 top: 51%;
+        	}
+        	#list{
+        		width: 70%;
+        		 top: 61%;
+        	}
+        	#profile{
+        		width: 70%;
+        		 top: 70%;
+        	}
+        	#more{
+        		width: 70%;
+        		 top: 79%;
+        	}
+        	#tweet{
+        		width: 70%;
+        		 top: 88%;
+                 background-color: #7878ff;
+                 border: 1px solid transparent;
+                 border-radius: 100px;
+                 color: white;
+                 text-align: center;
+                 left: 15%;
+                 padding-top: 10px;
+                 height: 50px;
+                 font-size: 15px;
+        	}
+        
+         .leftspan{
+         	width: 10%;
+         	height: 50%;
+            top: 25%;
+         	/*background-color: peru;*/
+         	position: absolute;
+         	left: 0;
+         	background-image: url(images/4.png);
+         }
+         .leftspan2{
+         	width: 70%;
+         	height: 100%;
+         	/*background-color: orange;*/
+         	position: absolute;
+         	left: 30%;	
+         }
+          #centerHome{
+         	width: 100%;
+         	height: 8vh;
+         	background-color: white;
+         	border: 0.6px solid rgba(200, 200, 255, 1);
+         	z-index: 20;
+            padding: 16px;
+            font-size: 20px;
+
+         }
+         #center-home-span{
+         	width: 5%;
+         	float: right;
+         	height: 120%;
+            top: 10%;
+             background-image: url(images/8.png); 
+          
+         }
+         #centerHappenning{
+         	width: 100%;
+         	height: 8vh;
+         	background-color: white;
+         	border: 1px solid silver;
+         	z-index: 20;
+            color: #aaaaff;
+            font-size: 23px;
+            position: absolute;
+            top: 8vh;
+            padding-left: 3%;
+             border-bottom-color: transparent;
+           
+
+         }
+         #profile-icon{
+            position: absolute;
+                width: 50px;
+                height: 50px;
+                top: 20%;
+                background-color: #aaaabb;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                background-image: url(images/9.png);
+        
+         }
+        #whats{
+            background-color: #fff;
+            position: absolute;
+            width: 85%;
+            padding-top: 15px;
+            height: 100%; 
+            left: 12%;
+            font-size: 20px;
+               font-weight: 300;
+                border: none;
+
+        }
+        input[type=text]{
+            outline: none;
+      
+        }
+         input[type=text]::placeholder{
+              color: #bbb;
+         
+        }
+        #iconlist{
+            width: 100%;
+            height: 10vh;
+            background-color: #fff;
+            border: 0.4px solid silver;
+            border-top-color: transparent;
+            z-index: 20;
+            color: #aaaaff;
+            font-size: 23px;
+            position: absolute;
+            top: 17vh;
+            padding-left: 10%;
+            border-bottom: 10px solid rgba(233,233,233);
+        }
+         .icons{
+            /*background-color: #aaaaff;*/
+            width: 4%;
+           height: 30%;
+            top:35%;
+           position: absolute;
+            z-index: 30;
+           text-align: center;
+            
+        }
+        #icon1{
+            left: 10%;
+            background-image: url(images/1.png); 
+             }
+         #icon2{
+            left: 16%;
+               background-image: url(images/2.png); 
+         
+            }
+         #icon3{
+            left: 22%;
+              background-image: url(images/3.png); 
+         
+        }
+         #icon4{
+            left: 28%;
+              background-image: url(images/4.png); 
+         
+        }
+         #icon5{
+            left: 68%;
+            height: 40%;
+            top: 25%;
+              background-image: url(images/5.png); 
+            opacity: 0.6;
+        }
+         #icon6{
+            left: 74%;
+            width: 2px;
+            border-radius: 0;
+            border: 0.8px solid silver;
+            height: 60%;
+            top: 15%;
+                
+        }
+         #icon7{
+            left: 76%;
+              width: 5%;
+            height: 60%;
+            top: 15%;
+              background-image: url(images/6.png); 
+           
+
+        }
+         #icon8{
+            left: 83%;
+            width: 13%;
+            height: 60%;
+            top: 20%;
+            background-color: #7878ff;
+            font-weight: 500;
+            background-image: url(images/7.png); 
+            border: 1px solid transparent;
+             border-radius: 50px;
+         }
+
+
+.feeds{
+        width: 100%;
+        height: 80vh;
+        position: absolute;
+        top:27vh;
+         font-size: 17px; 
+     font-weight: 100;
+     border: 0.5px solid silver;
+}
+
+.logowrapper{
+    width: 13%;
+    height: 100%;
+    padding: 10px;
+}
+.feedslogo{
+      width: 100%;
+      height: 13%;
+       background-image: url(images/free.png); 
+           
+}
+.feeds-wrapper{
+     width: 87%;
+     height: 100%;
+      left: 13%;
+    top: 0;
+     padding: 10px;
+       font-size: 17px; 
+     font-weight: 100;
+    position: absolute;
+
+  
+}
+./*image-wrapper{
+      border: 0.7px solid silver;
+    border-radius: 10px;
+   
+}*/
+.feedsname{
+      width: 100%;
+      height: 20%;
+      top:10px;
+     display: inline;
+    position: absolute;
+   }
+#verified1{
+    width: 20px;
+    height: 20px;
+    background-image: url(images/verified.png);
+    position: absolute; 
+    left: 31%;
+    top:10px;
+}
+
+.feedsimage{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    background-color: red;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+#feedsimage1{
+      background-image: url(images/feed1.png);
+  
+}
+.feeds-write-up{
+     font-size: 15px; 
+     font-weight: 100;
+     padding: 10px;
+     height: 10%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    padding-right: 20px;
+    
+}
+.logs{
+    width: 100%;
+    left: 0;
+    height: 5%;
+    top: 94%;
+    position: absolute;
+     background-image: url(images/10.png);
+  
+}
+
+
+.feed2{
+        width: 100%;
+        height: 95vh;
+        position: absolute;
+        top:123vh;
+         font-size: 17px; 
+     font-weight: 100;
+     border: 0.5px solid silver;
+
+}
+
+
+#searchTab{
+    width: 26%; 
+    height: 44px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 100px;
+     background-color: #e6ecf0;
+ font-size: 15px;
+    font-weight: 200;
+    padding: 10px;
+    color: #666;
+    position: fixed;
+    left: 70%;
+    z-index: 50;
+     }
+
+#searchInput{
+      margin-left: 10px;
+}
+
+#trends{
+    width: 80%;
+    margin: 15px 6%;
+     height: 80vh;
+    border: 1px solid transparent;
+    border-radius: 10px;
+      /*background-color: rgba(20,20,20,0.05);*/
+  background-color: #f5f8fa;
+  margin-top: 15%;
+}
+
+.trend0:hover{
+    background-color: rgba(20,20,20,0.05)
+
+}
+#foryou{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+
+}
+.trend0{
+    width: 100%;
+    height: 16%;
+    border-bottom: 1px solid #eee;
+}
+.politics, .tweets{
+    font-size: 13px;
+    font-weight: 400;
+   color: #666;
+   padding: 0 10px;
+}
+.maryam{
+      font-size: 19px;
+    font-weight: 700;
+   color: #333;
+    padding: 0 10px;
+}
+.tweets{
+     font-size: 16px;
+       padding: 0 10px;
+
+}
+#show-more{
+    color: #7878ff;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+#feed2{
+    top: 107vh;
+    position: absolute;
+}
+
+#feed3{
+    top: 187vh;
+    position: absolute;
+}
+
+
+#feedsimage2{
+      background-image: url(images/1.jpg);
+  
+}
+
+#feedsimage3{
+      background-image: url(images/2.jpg);
+  
+}
+
+#feedsimage2{
+      background-image: url(images/1.jpg);
+  
+}
+
+#who{
+    height: 55vh;
+    width: 80%;
+    background-color: #f5f8fa;
+    margin-left:  6%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+#tofollow{
+    padding: 15px;
+    font-size: 20px;
+    height: 15%;
+    border-bottom: 1px solid  #d5d8da;
+}
+.follower{
+height:     20%;
+border-bottom: 1px solid  #d5d8da;
+}
+.poju-icon{
+    height: 60%;
+    border: 1px solid #f5f8fa;
+    width: 13%;
+    background-color: green;
+    border-radius: 100px;
+    margin-left: 3%;
+    top: 20%;
+    position: relative;
+    background-image: url(images/free.png);
+ }
+ .poju-name{
+       height: 20px;
+      width: 25%;
+      margin-left: 16%;
+      top: 103vh;
+       font-size: 13px;
+      position: absolute;
+ }
+ .poju-trend{
+       height: 20px;
+      width: 25%;
+      margin-left: 16%;
+      top: 107vh;
+       font-size: 13px;
+      position: absolute;
+      color: #aeaeae;
+ }
+  .poju-follow{
+      width: 20%;
+      margin-left: 57%;
+      top: 103vh;
+       font-size: 17px;
+      position: absolute;
+      color: #7a7aff;
+      border: 2px solid #7a7aff;
+      text-align: center;
+      border-radius: 100px;
+      padding: 6px 0;
+ }
+ #poju-name2{
+     top: 114vh;
+     
+ }
+ #poju-trend2{
+     top: 118vh;
+     
+ }
+ #poju-follow2{
+     top: 114vh;
+     
+ }
+ #poju-name3{
+     top: 125vh;
+     
+ }
+ #poju-trend3{
+     top: 129vh;
+     
+ }
+ #poju-follow3{
+     top: 125vh;
+     
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    color: #777;
+    display: inline;
+    margin: -3px 10px;
+    font-weight: 200;
+}
