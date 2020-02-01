@@ -251,7 +251,6 @@ by Salvador Villalon How to build a web application using Flask and deploy it to
 </div>
 
 </div>
-<script src="jquery-3.2.1.js"></script>
 <script>
 
 var s = 0;
@@ -260,8 +259,9 @@ window.addEventListener("scroll", function(){
 	  var winH = window.innerHeight-100;
 	  var right = document.getElementById( "right");
 	  // var scroll = document.getElementById("scroll");
-	  //    var x = body.scrollY;
+	     var x = body.scrollY;
 	     console.log(s);
+ console.log("x =" + x);
 
 	     // alert(x);
   if (s == 40) {
